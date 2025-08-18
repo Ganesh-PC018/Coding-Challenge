@@ -8,7 +8,7 @@ public class SortArray{
         for(int i=0;i<size;i++){
             arr[i] = sc.nextInt();
         }
-
+        sc.close();
         int zeroCount=0;
         int oneCount=0;
         int twoCount=0;

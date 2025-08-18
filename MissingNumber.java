@@ -7,6 +7,7 @@ public class MissingNumber {
         for(int i=0;i<size;i++){
             arr[i] = sc.nextInt();
         }
+        sc.close();
         int newSize = arr.length+1;
         long sum=0;
         for(int data : arr){
